@@ -5,7 +5,7 @@ import sklearn
 from tkinter import ttk, filedialog
 from tkinter import Menu
 
-import cv2
+
 from PIL import Image, ImageTk
 from utils import generate_file, load_params, evaluate, test_image
 
