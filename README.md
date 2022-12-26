@@ -8,7 +8,7 @@ To start with, you only need to:
 2. input the command` cd Simple-Face-Recognition`
 3. switch to your virtual environment, and use the command `pip install -r requirements.txt` and the install session will be started automatically
 4. the project can be trained by the **[Georgia Tech face database](http://www.anefian.com/research/gt_db.zip)** , download and replace it with 'gt_db' folder
-5. to run the app,  use `python UI.py`,[do not recommand] you can choose 'Generate feature file' to generate a pickle encoded file to help train process (this file is already in the repo) manually, it may take more than 5 minutes
+5. to run the app,  use `python UI.py`,[do not recommend as it is already exists] you can choose 'Generate feature file' to generate a pickle encoded file to help train process (this file is already in the repo) manually, it may take more than 5 minutes
 6. Tip: This repo is powered by the lib: [face-recognition](https://github.com/ageitgey/face_recognition), the structure looks like this:
 
     ![img_1](imgs/img_1.png)
