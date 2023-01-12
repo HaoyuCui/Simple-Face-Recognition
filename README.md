@@ -4,7 +4,7 @@ This is a Simple-Face-Recognition app using Python and the module `face_recognit
 
 To start with, you only need to:
 
-1. clone this file: `git clone https://github.com/HaoyuCui/Simple-Face-Recognition.git`
+1. clone this repository: `git clone https://github.com/HaoyuCui/Simple-Face-Recognition.git`
 
 2. input the command` cd Simple-Face-Recognition`
 
@@ -12,7 +12,7 @@ To start with, you only need to:
 
 4. the project can be trained by the **[Georgia Tech face database](http://www.anefian.com/research/gt_db.zip)** , download and replace it with 'gt_db' folder, after that, your folder's structure should looks like this:
 
-    <img src="imgs/tree.png" style="zoom:50%;" />
+    <img src="imgs/tree.png"/>
 
     You can replace to your own dataset, make suer to use names like  `gt_db/name/pics` 
 
