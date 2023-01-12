@@ -12,7 +12,15 @@ To start with, you only need to:
 
 4. the project can be trained by the **[Georgia Tech face database](http://www.anefian.com/research/gt_db.zip)** , download and replace it with 'gt_db' folder, after that, your folder's structure should looks like this:
 
-    <img src="imgs/tree.png"/>
+    ```
+    gt_db
+    ├─ s01
+    │    ├─ 01.jpg
+    │    ├─ ...
+    │    └─ 15.jpg
+    ├─ ...
+    └─ s50
+    ```
 
     You can replace to your own dataset, make suer to use names like  `gt_db/name/pics` 
 
