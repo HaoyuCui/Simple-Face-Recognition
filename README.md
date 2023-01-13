@@ -22,8 +22,7 @@ To start with, you only need to:
     └─ s50
     ```
 
-    You can replace to your own dataset, make suer to use names like  `gt_db/name/pics` 
-
+    You can replace this with your own dataset, make sure to use names like  `gt_db/name/pics`, more than one image per person is accepted (recommend 1 ~ 5 for each person). 
 5. to run the app,  use `python UI.py`,[do not recommend as it is already exists] you can choose 'Generate feature file' to generate a pickle encoded file to help train process (this file is already in the repo) manually, it may take more than 5 minutes
 
 6. Tip: This repo is powered by the lib: [face-recognition](https://github.com/ageitgey/face_recognition), the structure looks like this:
