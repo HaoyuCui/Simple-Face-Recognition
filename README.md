@@ -1,4 +1,4 @@
-# Simple Face Recognition 简单的人脸识别应用（包含GUI）
+# 简单的GUI人脸识别应用
 
 > This readme file also provide an English version, please refer to [README_en.md](README_en.md)
 
