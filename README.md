@@ -1,16 +1,18 @@
-# Simple Face Recognition
+# Simple Face Recognition 简单的人脸识别应用（包含GUI）
 
-This is a Simple-Face-Recognition app using Python and the module `face_recognition`
+> This readme file also provide an English version, please refer to [README_en.md](README_en.md)
 
-To start with, you only need to:
+这是一个简单的基于Python库 `face_recognition` 的人脸识别应用，兼容Windows、Linux、MacOS，无需PyTorch、Tensorflow等深度学习框架，仅需Python3.6+即可运行
 
-1. clone this repository: `git clone https://github.com/HaoyuCui/Simple-Face-Recognition.git`
+要开始的话，你只需要：
 
-2. input the command` cd Simple-Face-Recognition`
+1. 克隆本仓库: `git clone https://github.com/HaoyuCui/Simple-Face-Recognition.git`
 
-3. switch to your virtual environment, and use the command `pip install -r requirements.txt` and the install session will be started automatically
+2. 进入到本文件夹中` cd Simple-Face-Recognition`
 
-4. the project can be trained by the **[Georgia Tech face database](http://www.anefian.com/research/gt_db.zip)** , download and replace it with 'gt_db' folder, after that, your folder's structure should looks like this:
+3. 安装依赖环境 `pip install -r requirements.txt` ，安装过程会自动开始
+
+4. 该项目在数据集 **[Georgia Tech face database](http://www.anefian.com/research/gt_db.zip)** 上训练并测试，下载并替换该目录下的 'gt_db' 文件夹， 在那之后，你的文件夹结构应该是这样的:
 
     ```
     gt_db
@@ -22,16 +24,16 @@ To start with, you only need to:
     └─ s50
     ```
 
-    You can replace this with your own dataset, make sure to use names like  `gt_db/name/pics`, more than one image per person is accepted (recommend 1 ~ 5 for each person). 
-5. to run the app,  use `python UI.py`,[do not recommend as it is already exists] you can choose 'Generate feature file' to generate a pickle encoded file to help train process (this file is already in the repo) manually, it may take more than 5 minutes
+   你可以将该目录替换为你自己的数据集，请参照该结构  `gt_db/<姓名>/<对应所有照片>`，每个人的照片数量不限（推荐每人1~5张） 
+5. 使用`python UI.py`命令运行，你可以选择功能区域的'Generate feature file'手动生成一个pickle文件，对于该数据集，生成该文件大约需要5分钟（不推荐）
 
-6. Tip: This repo is powered by the lib: [face-recognition](https://github.com/ageitgey/face_recognition), the structure looks like this:
+6. Tip: 你可以前往该仓库了解人脸识别库的更多信息: [face-recognition](https://github.com/ageitgey/face_recognition)
 
-    ![img_1](imgs/img_1.png)
+    ![img_1](.github/img_1.png)
 
-7. choose 'Fit model & Evaluate' to train a SVM, you can now select image file to evaluate this model, the accuracy can achieve up to 98.66%
+7. 选择'Fit model & Evaluate'来训练一个SVM分类器，你可以选择图片文件来测试该模型，准确率可以达到98.66%
 
-8. The over-all process looks like this:
+8. 整体流程如下:
 
-   ![img_2](imgs/img_2.png)
+   ![img_2](.github/img_2.png)
 
