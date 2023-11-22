@@ -1,4 +1,4 @@
-# Simple Face Recognition
+# Simple Face Recognition with GUI
 
 This is a Simple-Face-Recognition app using Python and the module `face_recognition`
 
